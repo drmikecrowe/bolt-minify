@@ -1,0 +1,34 @@
+{
+    "name": "drmikecrowe/Minify",
+    "description": "PHP Minify for bolt CMS.",
+    "type": "bolt-extension",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/drmikecrowe/minify"
+        }
+    ],
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0",
+        "drmikecrowe/minify": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Crowe",
+            "email": "drmikecrowe@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\Yourname\\Extensionname\\": ""
+        }
+    },
+    
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}
